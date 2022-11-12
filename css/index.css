@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(255, 255, 255);
+  background-image: url("assets/bg-img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+}
+.navbar-container {
+  background-color: rgb(206, 189, 168);
+}
+.profile-img {
+  border-radius: 50%;
+}
+.img {
+    height: 300px;
+}
+.book-column
+{
+    width: 280px;
+    border: 3px solid rgb(180, 184, 176);
+    border-radius: 15px;
+}
+.book-container
+{
+    justify-content: space-evenly;
+}
+.btn-download{
+  margin: 5px;
+  text-align: center;
+  width: 250px;
+}
+.btn-download:hover
+{
+  background-color: green;
+}
+.img-div {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: larger;
+    background: -webkit-linear-gradient(rgb(14, 139, 79), rgb(71, 5, 38));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info-div2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: larger;
+  background: -webkit-linear-gradient(rgb(21, 120, 66), rgb(24, 112, 105));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.button-div {
+    justify-content: center;
+    text-align: center;
+}
+.div3
+{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: red;
+  color: rgb(254, 249, 249);
+}
+.footer {
+  justify-content: flex-start;
+  text-align: start;
+}
+.container-footer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 100px;
+  background-color: black;
+}

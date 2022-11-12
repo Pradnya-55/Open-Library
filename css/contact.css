@@ -1,0 +1,62 @@
+.contact-head-container
+{
+    background-color: whitesmoke;
+    margin: 3px;
+}
+.main-head
+{
+    margin-bottom: 15px;
+    color: rgb(245, 250, 249);
+    background: -webkit-linear-gradient(rgb(248, 3, 3), rgb(25, 0, 252));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.telle
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.contact-container
+{
+    display: flex;
+    justify-content: center;
+}
+.contact-container-child
+{
+    border-radius: 20px;
+    height: 500px;
+}
+.con-info
+{
+    border-radius: 25px 0px 0px 25px;
+    background-image: url("/assets/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(49, 191, 227);
+}
+.con-form
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 25px 25px 0px;
+    background-color: white;
+}
+.input-box
+{
+    border: none;
+}
+.contact-message
+{
+    width: 200px;
+}
+.send-msg-btn
+{
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(95, 95, 197);
+    color: white;
+}
